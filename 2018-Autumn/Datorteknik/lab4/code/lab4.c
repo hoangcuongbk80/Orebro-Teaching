@@ -40,17 +40,21 @@ char buf_in(buffer* b, int byteFile)
 void buf_out(buffer* b, int byteFile, char byte)
 {
 	*(b->m_buffer + b->position) = byte;
+	b->position++;
 	if((*b).position >= (*b).length)
 	{
 		int t = write(byteFile, b->m_buffer, b->length);
 		b->position = 0;
 	}
-	b->position++;
 }
 
 void buf_flush(buffer* b, int byteFile)
 {
-
+	if(b->position != 0)
+	{
+		printf("\nFlush!");
+		int t = write(byteFile, b->m_buffer, b->position);
+	}
 }
 
 int main()
@@ -61,14 +65,14 @@ int main()
 
 	FILE* writeFile = fopen("buf_in.bin", "wb");
 
-	char x[32]="AASS-OREBRO-UNIVERSITY-SWEDEN-VN";
+	char x[43]="AASS-OREBRO-UNIVERSITY-SWEDEN-VN-TEST-FLUSH";
 	fwrite(x, sizeof(x[0]), sizeof(x)/sizeof(x[0]), writeFile);
 	fclose(writeFile);
 
 	int openFile = open("buf_in.bin", O_RDONLY | O_APPEND);
 	int outFile = open("buf_out.txt", O_WRONLY | O_CREAT);
 	int i;
-	for(i=0; i < 32; i++)
+	for(i=0; i < sizeof(x); i++)
 	{
 		if(i%4 == 0)
 		{
@@ -78,7 +82,7 @@ int main()
 		printf("%c ", ch);
 		buf_out(b_out, outFile, ch);
 	}
-	/*buf_flush(b_out, outFile);*/
+	buf_flush(b_out, outFile);
 	printf("\n");
 	free(b_int->m_buffer);
 	free(b_out->m_buffer);
