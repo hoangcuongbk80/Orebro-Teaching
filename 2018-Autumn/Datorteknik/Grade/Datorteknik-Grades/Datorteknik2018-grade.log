@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  31 OCT 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  2 NOV 2018 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,10 +318,6 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
  [1] [2] [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
@@ -339,7 +335,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
 Here is how much of TeX's memory you used:
  7304 strings out of 493029
  112245 string characters out of 6136233
- 213759 words of memory out of 5000000
+ 214844 words of memory out of 5000000
  10799 multiletter control sequences out of 15000+600000
  6675 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -347,7 +343,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Datorteknik2018-grade.pdf (4 pages, 46819 bytes).
+Output written on Datorteknik2018-grade.pdf (4 pages, 47622 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
