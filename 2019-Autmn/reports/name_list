@@ -1,0 +1,36 @@
+G1
+Viktor Rask \\ Amanda Hakansson
+
+G2
+Mattias Karlsson \\ Johan Larsson \\ Max Niia
+
+G3
+Abshir Abdulrahman \\ Fria Khorshid
+
+G4
+Alexander Benteby \\ Isa Ertunga \\ Hannes Halm
+
+G5
+Andreas Vasberg \\ Patrik Viitala
+
+G6
+Douglas Halse \\ Marcus Ostmo
+
+G7
+Alfred Elfving \\ Fahad Rejabo
+
+
+
+- Figures and tables must be clearly labelled so they can be accurately referred to in your report. Each figure or table should have a title and a number.
+
+- Should provide appropriate inline comments for your code
+
+- Task2:
++) Missing  source code of the C function in_out
++) Missing "Write a separate main function to test that int_out produces the expected output"
+
+
+- Task 3: There is no comparision between C code and Assembly code. 
+
+In the report explain how the code works and describe what test you performed the
+validity of your code.
